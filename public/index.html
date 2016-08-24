@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Testing React</title>
+    <script src="https://npmcdn.com/react@15.3.1/dist/react.min.js"></script>
+    <script src="https://npmcdn.com/react-dom@15.3.1/dist/react-dom.min.js"></script>
+    <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
+    <script type="text/babel" src="js/master.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.1.2/css/bulma.min.css">
+    <link rel="stylesheet" href="css/touchup.css">
+  </head>
+  <body class="bod content">
+
+    <header>
+      <nav class="container nav has-shadow">
+        <div class="nav-left">
+          <p class="subtitle nav-item">Angel Vanegas</p>
+        </div>
+        <div class="nav-center">
+          <a class="nav-item is-tab" href="#">About Me</a>
+          <a class="nav-item is-tab">Other Apps</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+
+      <div class="container">
+
+        <h1 class="has-text-centered">Hello there!</h1>
+        <p class="has-text-centered">A basic counter written in React. Much more challenging than in Elm.</p>
+      </div>
+      <br>
+      <br>
+      <div class="box" id="app"></div>
+
+      <div class="columns is-mobile">
+        <section class="column is-4 is-offset-8 notification card is-warning">
+          <p>This is a section of content that I will add just
+            because I feel like it.</p>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer has-text-centered">
+      <span class="">Copyright &copy; 2016</span>
+    </footer>
+
+  </body>
+</html>
